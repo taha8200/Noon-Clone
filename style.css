@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    background-color: yellow;
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+}
+.noon-logo{
+    width: 100px;
+}
+.dubai-flag{
+    width: 40px;
+    margin-right: -20px;
+}
+.delivery{
+    max-width: 100px;
+}
+.search-bar{
+    width: 600px;
+    height: 34px;
+    border-radius: 4px;
+    border: none;
+    padding: 20px;
+}
+#country{
+    background-color: yellow;
+    border: none;
+    margin-left: -50px;
+}
+.categories{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.categories ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+
+}
+.all-categories{
+    color: blue;
+    border-right: 1px solid blue;
+    padding: 5px 5px;
+}
+.drop-down{
+    margin-left: 30px;
+    margin-right: 5px;
+}
+.toys{
+    margin-left: 20px;
+}
+.item{
+    width: 150px;
+    height: 50px;
+}
+.offers{
+    width: 100%;
+    height: 12vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offers ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+}
+.free{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding: 0 5px;
+}
+.cashback{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0 5px;
+}
+.first{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 2px 15px;
+}
+.one{
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 4px 6px;
+}
+.try-free{
+    font-weight: bold;
+    color: greenyellow;
+    font-size: 0.8rem;
+}
+.special{
+    border: 1px solid red;
+    border-radius: 2px;
+    padding: 4px 6px;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.ad{
+    width: 65vw;
+}
+.fashion{
+    width: 33vw;
+    height: 180px;
+}
+.products ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.product-pic{
+    width: 80px;
+}
+.perks{
+    width: 100%;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.cards{
+    width: 30vw;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    background-color: white;
+    border-radius: 1px;
+    padding: 15px 10px;
+}
+.electronic-items{
+    width: 180px;
+}
+.different-items{
+    width: 180px;
+}
+.emaar-life{
+    width: 98%;
+    margin: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: justify;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+}
+.help{
+    height: 100px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.support-channels{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.channel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.product-lists{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product-lists ul{
+    list-style: none;
+    line-height: 2rem;
+}
+.connect-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+}
+.social-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+.apps{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+.app-gallery{
+    width: 84px;
+    height: 26px;
+}
+.shop-connect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gainsboro;
+    padding: 20px 0 60px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+.text ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+.credit-cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
