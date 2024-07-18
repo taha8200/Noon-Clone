@@ -1,12 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
 }
-.container{
+
+/* Main container */
+
+.custom-container{
     height: 100%;
     width: 100%;
 }
+
+/* Navbar styling */
 .nav{
     background-color: yellow;
     width: 100%;
@@ -28,10 +38,10 @@
 }
 .dubai-flag{
     width: 40px;
-    margin-right: -20px;
+    margin-right: -15px;
 }
 .delivery{
-    max-width: 100px;
+    max-width: 112px;
 }
 .search-bar{
     width: 600px;
@@ -45,12 +55,16 @@
     border: none;
     margin-left: -50px;
 }
+
+/* Categories nav bar */
+
 .categories{
     width: 100%;
     height: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;   
+    margin-top: 10px;
 }
 .categories ul{
     width: 100%;
@@ -78,6 +92,9 @@
     width: 150px;
     height: 50px;
 }
+
+/* Offers Nav bar */
+
 .offers{
     width: 100%;
     height: 12vh;
@@ -133,6 +150,9 @@
     border-radius: 2px;
     padding: 4px 6px;
 }
+
+/* First Ad Slider */
+
 .slider{
     display: flex;
     flex-direction: row;
@@ -145,6 +165,9 @@
     width: 33vw;
     height: 180px;
 }
+
+/* Products */
+
 .products ul{
     width: 100%;
     display: flex;
@@ -153,7 +176,7 @@
     list-style: none;
     position: relative;
 }
-/* Arrow Buttons */
+/* Arrow Buttons
 .mini-arrow-btn{
     width: 25px;
     height: 25px;
@@ -193,43 +216,99 @@
 }
 .big-arrow-btn{
 
-}
+} */
 .product-pic{
     width: 80px;
 }
 .perks{
     width: 100%;
-    background-color: gainsboro;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 20px;
+    gap: 5px;
+    margin-block: 40px;
 }
 .cards{
-    width: 30vw;
+    width: 32vw;
     height: 400px;
     display: grid;
     grid-template-columns: repeat(2,2fr);
-    background-color: white;
     border-radius: 1px;
     padding: 15px 10px;
+    gap: 10px;
 }
 .in-focus{
-    width: 30vw;
+    width: 32vw;
     height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: white;
     border-radius: 1px;
     padding: 15px 10px;
 }
 .infocus-offer{
     width: 360px;
 }
-.offer-cards{
-    
+.big-deals-card{
+    position: relative;
+    width: 180px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.big-deals-card-img{
+    background-color: white;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.big-deals-card-pic{
+    width: 60px;
+}
+.big-deals-card-label{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: yellow;
+    color: orangered;
+    font-weight: bold;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 8px;
+    text-align: center;
+}
+.big-deals-card-shop-logo{
+    position: absolute;
+    top: 55px;
+    right: 2px;
+    border-radius: 4px;
+}
+.big-deals-card-dicp{
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+}
+
+.offers-card{
+    width: 32vw;
+    height: 440px;
+    padding: 5px;
+}
+.reasons{
+    background-color: lavender;
+}
+.big-deals{
+    background-color:rgb(193, 189, 245);
+}
+.infocus{
+    background-color: lavender;
 }
 .electronic-items{
     width: 180px;
@@ -338,7 +417,96 @@ a{
     align-items: center;
     gap: 20px;
 }
+
+/* Sale Cards */
+
+.product-sale-deals{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 20px;
+    padding: 20px;
+}
+.sale-deals-card{
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+.sale-card{
+    max-width: 398px;
+    min-height: 148px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.sale-deal-dicp{
+   max-width:160px; 
+   font-size: 20px;
+   display: flex;
+   flex-direction: column;
+}
+.sale-deal-img{
+    max-width: 100px;
+}
+/* Deals Cards Container */
+
+.deal-container{
+    width: 100%;
+    padding: 10px;
+}
+.deals-card-container{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 10px;
+}
+.deal-card{
+    position: relative;
+    width: 402px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:aquamarine;
+    border-radius: 10px;
+}
+.inside-deal-card{
+    position: relative;
+    width: 398px;
+    height: 180px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:white;
+    padding: 10px;
+}
+.deal-img{
+    height: 80%;
+    width: 271px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.deal-pic{
+    width: 117px;
+}
+.deal-shop-logo{
+    position: absolute;
+    bottom: 5px;
+    right: 4px;
+    border-radius: 4px;
+}
+.deal-dicp{
+    width: 100%;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+}
+
 /* Cards of products */
+
 .cards-gallery{
     display: grid;
     grid-template-columns: repeat(6,1fr);    
@@ -375,6 +543,8 @@ a{
     position: absolute;
     top: 4px;
     left: 4px;
+    font-size: 13px;
+    font-weight: bold;
 }
 .gift{
     background-color:whitesmoke;
@@ -401,9 +571,11 @@ a{
     right: 4px;
 }
 .ice{
-    background-color: rgb(190, 219, 230);
+    background-color: rgb(214, 214, 214);
 }
+
 /* Products Of Noon App */
+
 .product-container{
     display: flex;
     flex-direction: column;
@@ -416,11 +588,25 @@ a{
     align-items: center;
     padding: 0 20px;
 }
-.product-btn{
-    background-color: white;
-    border: 1px solid black;
+.product-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     font-weight: bold;
-    padding: 10px 20px;
+}
+.big-heading{
+    font-size: 24px;
+}
+.small-heading{
+    font-size: 18px;
+}
+.product-btn{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 8px 18px;
+    border-radius: 20px;
 }
 .product-gallery{
     display: grid;
@@ -433,11 +619,39 @@ a{
 .lemon{
     background-color: lightgoldenrodyellow;
 }
-.saving{
-    margin-left: 10px;
+.sky{
+    background-color: rgb(237, 244, 245);
+}
+.purple{
+    background-color:rgb(237, 237, 237);
+}
+/* Official Bramds Stores */
+
+.official-brands{
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    margin: 20px;
+    padding-bottom: 40px;
+}
+.brands-store{
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+    gap: 10px;
+}
+.brands-img{
+    width: 280px;
+}
+
+/* Maximise savings */
+
+.maximise-savings{
+    background-color: rgb(241, 241, 241);
+    padding: 20px 20px 60px 20px;
+}
+.savings-img{
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
-.saving-img{
-    width: 300px;
+.savings-pics{
+    width: 280px;
 }
